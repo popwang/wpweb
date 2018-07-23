@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.environment.mypuls.mapper.TWpData2Mapper" >
+
+  <select id="selectByVEquipmentName" resultType="com.environment.mypuls.entity.TWpData2" parameterType="map">
+    	SELECT
+		v_equipment_name,
+		v_motor_status,
+		v_motor_temp,
+		v_motor_speed,
+		d_longitude,
+		d_latitude,
+		date_format(dtm_create,'%Y-%m-%d %H:%i:%S') dtm_create,
+		i_work_model,
+		i_work_status
+		FROM
+		t_wp_data2 
+		where v_equipment_name=#{name}
+  </select>
+  
+  <select id="selectAllData" resultType="com.environment.mypuls.entity.TWpData2" parameterType="map">
+    	SELECT
+		v_equipment_name,
+		v_motor_status,
+		v_motor_temp,
+		v_motor_speed,
+		d_longitude,
+		d_latitude,
+		date_format(dtm_create,'%Y-%m-%d %H:%i:%S') dtm_create,
+		i_work_model,
+		i_work_status
+		FROM
+		t_wp_data2 
+  </select>
+  
+  <select id="selectOnes" resultType="com.environment.mypuls.entity.TWpData2" parameterType="map">
+    	SELECT
+		v_equipment_name,
+		v_motor_status,
+		v_motor_temp,
+		v_motor_speed,
+		d_longitude,
+		d_latitude,
+		date_format(dtm_create,'%Y-%m-%d %H:%i:%S') dtm_create,
+		i_work_model,
+		i_work_status
+		FROM
+		t_wp_data
+		where v_equipment_name=#{name}
+		order by dtm_create 
+		limit 0,9 
+  </select>
+  
+</mapper>

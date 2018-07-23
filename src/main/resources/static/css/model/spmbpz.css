@@ -1,0 +1,188 @@
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+.popover{
+	max-width:none;
+}
+.line{
+	    clear: both;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ddd;
+    /* background: #ddd; */
+    margin: 15px 0;
+    padding-top: 15px;
+}
+.controls .control-label{
+   display: inline-block;
+   width:56px;
+   height:30px;
+   line-height:30px;
+   text-align:right;
+   margin: 0 5px 0 10px;
+}
+.controls .control-label-ck{
+   height:auto;
+   line-height:normal;
+}
+.winp{
+	width:160px;
+}
+.winpSele{
+	width:174px;
+}
+.popover-content form {
+    width:490px;
+}
+.popover-content form.formTextarea .control-label{
+     margin: 0;
+}
+.popover-content form.formTextarea {
+    width:213px;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+.hide2{
+	display:none;
+}
+.seach-btn {
+	margin: 0 10px 0 0;
+	border-radius: 0 2px 2px 0;
+	background-image: url(../../img/icon_search.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-left: 33px;
+}
+.wid7{
+	width:240%;
+}
+.layui-btn {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 18px;
+    background-color: #0e9aef;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+h2{
+	font-size:15px;
+	/* border-bottom:1px solid #ddd; */
+	text-align:center;
+}
+.leipiplugins-orgvalue{
+	font-size:14px;
+}
+#target{
+	border-radius:8px;
+	border: 1px solid #ddd;
+}
+.template_remake{
+	height:60px;
+	width:250px;
+}
+
+.panel-body {
+    padding:0 15px;
+}
+.check,.cancel{
+	margin-right:30px;
+	color:#0e9aef;
+	cursor:pointer;
+}
+.check{
+	color:#D9262C;
+}
+.savetemplent{
+	margin-right:10px;
+}
+.savetemplent:hover{
+	opacity:0.7;
+}
+.call-off{
+	opacity:0.7;
+}
+.call-off{
+    border: 1px solid #dedede;
+    background-color: #f1f1f1;
+    color:#000;
+}
+.base-element{
+	border-bottom:1px dashed #ddd;
+}
+.base-inner{
+	width:80%;
+	margin:20px auto;
+}
+/* file 样式*/
+.file {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 4px 12px;
+	overflow: hidden;
+	color: #666;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 20px;
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+		
+.file input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.file:hover {
+	opacity: 0.8;
+}
+.upload_text{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+.plus{
+	color: #2e8ded;
+}
+/* bootstrap表头 */
+.bootstrap-table .table.table-no-bordered>thead>tr>th{
+	 background:#f9fdff;
+}
+.control-group:hover{
+	opacity: 0.7;
+}
+/*头像*/
+.cmt-ico .head-ico img {border: 1px solid #ddd;padding: 2px;border-radius:3px;}
+.pop-ico{position: absolute;width: 250px;min-height: 130px;top: 50px;left: 0px;background: #FFF;border: 1px solid #D7D7D7;z-index: 100}
+.pop-ico .ico-title{height: 20px;background-color: #F0F0F0;color: #0078B6;padding-top: 5px;padding-left: 5px;padding-right: 5px}
+.pop-ico .ico-title a{cursor: pointer;display: block; width: 15px ;height: 15px;text-align: center;position: absolute;right: 5px;top: 5px;}
+.pop-ico .ico-list{padding: 7px}
+.pop-ico .ico-list a img {border: 1px dashed #DDD;cursor: pointer;}
+.pop-ico .ico-list a:hover img, .pop-ico .ico-list .cur img {border: 1px dashed #F60;}

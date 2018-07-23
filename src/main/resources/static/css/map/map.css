@@ -1,0 +1,255 @@
+*, p, ul, li {
+	font-family: 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma,
+		'Hiragino Sans GB', STHeiti, 'Microsoft YaHei';
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	background-color: whitesmoke;
+	width: 100%;
+	height: 100%;
+}
+
+div.warpper {
+	width: 100%;
+	height: 100%;
+}
+
+div.warpper>div.map-container {
+	width: 100%;
+	height: 100%;
+}
+
+div.warpper>div.legend-color {
+	width: auto;
+	height: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 9999;
+	background-color: #d4d9d4;
+	padding: 0px;
+}
+
+div.warpper>div.legend-color>p.item-title {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+}
+
+div.warpper>div.legend-color>p.item-row {
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	float: left;
+}
+
+div.warpper>div.legend-color>p.item-row>span.color {
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	float: left;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+div.warpper>div.data-container {
+	width: 300px;
+	height: auto;
+	position: fixed;
+	left: 0px;
+	top: 50px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid #808080;
+}
+
+div.warpper>div.data-container2 {
+	width: 450px;
+	height: auto;
+	position: fixed;
+	left: 320px;
+	top: 50px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid #808080;
+}
+
+div.warpper>div.data-container>div.close-icon {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	cursor: pointer;
+}
+
+div.warpper>div.data-container>div.close-icon:hover {
+	font-weight: bold;
+}
+
+div.warpper>div.data-container>div.top-lay {
+	width: 100%;
+	height: 115px;
+}
+
+div.warpper>div.data-container>div.top-lay>div.item-row-aqi {
+	width: 100%;
+	height: 120px;
+	padding-top: 10px;
+}
+
+div.warpper>div.data-container>div.top-lay>div.item-row-aqi>div.item-row-txt-aqi
+	{
+	width: 120px;
+	height: 120px;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+	border-radius: 60px;
+	border: 10px solid rgb(126, 0, 35);
+	line-height: 100px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+div.warpper>div.data-container>div.top-lay>div.item-row-name {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.warpper>div.data-container2>div.top-lay>div.item-row-name {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.warpper>div.data-container>div.top-lay>div.item-row {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 12px;
+}
+
+div.warpper>div.data-container>div.bottom-lay {
+	width: 100%;
+	height: auto;
+}
+
+div.warpper>div.data-container>div.bottom-lay>div.item-row {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #808080;
+	border-width: 0px 0px 1px 0px;
+	box-sizing: border-box;
+}
+
+div.warpper>div.data-container>div.bottom-lay>div.item-row:first-of-type
+	{
+	border-top-width: 1px;
+}
+
+div.warpper>div.data-container>div.bottom-lay>div.item-row:last-of-type
+	{
+	border-bottom-width: 0px;
+}
+
+div.warpper>div.data-container>div.bottom-lay>div.item-row:nth-of-type(2n+1)
+	{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+div.warpper>div.data-container>div.bottom-lay>div.item-row>span.item-row-title
+	{
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	box-sizing: border-box;
+	display: block;
+	width: 33%;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #808080;
+}
+
+div.warpper>div.data-container>div.bottom-lay>div.item-row>span.item-row-txt
+	{
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	box-sizing: border-box;
+	display: block;
+	width: 34%;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #808080;
+}
+
+div.warpper>div.data-container>div.bottom-lay>div.item-row>span.item-row-unit
+	{
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	box-sizing: border-box;
+	display: block;
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+
+.BMapLabel span {
+	background: #84BFE2;
+	padding: 2px;
+}
+
+.anchorBL, .anchorTL {
+	display: none;
+}
+
+.BMapLabel {
+	padding: 0px;
+}
+
+.marker-tips {
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	display: block;
+	background-color: #FFFFFF;
+}
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.environment.mypuls.mapper.TEquipmentDataMapper" >
+
+  <!--根据设备名称和数据时间查询设备数据-->
+  <select id="selectEquipmentData" resultType="com.environment.mypuls.entity.TEquipmentData" parameterType="map">
+    select t.`v_equipment_name`,
+    p001, p002, p003, p004,w.`v_wind_direct_name` p005name, p006, p007, p008, p009, p010, p011,
+    p012, p013, p014, p015,date_format(dtm_create,'%Y-%m-%d %H:%i:%S') dtm_create
+    from t_equipment_data t
+    left join `t_wind_direct_dic` w on w.`i_wind_direct_id`=t.`p005`
+  	where t.`dtm_create` BETWEEN  #{start} AND #{end}
+	  <if test="equipmentname != null">
+	  		AND t.v_equipment_name=#{equipmentname}
+	  </if>
+  	order by t.`dtm_create` desc
+  </select>
+  
+   <!--查询设备最近的10条数据，用于加载柱状图-->
+  <select id="selectEquipmentData4Chart" resultType="com.environment.mypuls.entity.TEquipmentData" parameterType="map">
+    select t.`v_equipment_name`,
+    p001, p002, p003, p004,w.`v_wind_direct_name` p005name, p006, p007, p008, p009, p010, p011,
+    p012, p013, p014, p015,date_format(dtm_create,'%Y-%m-%d %H:%i:%S') dtm_create
+    from t_equipment_data t
+    left join `t_wind_direct_dic` w on w.`i_wind_direct_id`=t.`p005`
+  	where 1=1
+	  <if test="equipmentname != null">
+	  		AND t.v_equipment_name=#{equipmentname}
+	  </if>
+	  order by t.`dtm_create` desc
+	  limit 0,10
+  </select>
+</mapper>

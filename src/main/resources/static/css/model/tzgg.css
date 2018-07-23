@@ -1,0 +1,233 @@
+/* td最大宽度，文字左对齐 */
+.fixed-table-body tr td{
+	max-width: 250px;
+    text-align: left;
+}
+
+.tzgg-top{
+    color: #fff;
+    background-color: #0e9aef;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 8px;
+    text-shadow: none;
+}
+/* 灰色 */
+.gray-color {
+    color: #8a8888;
+}
+/* 查看人数下边进度条 */
+.tzgg-progress {
+    position: relative;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #e2e2e2;
+}
+.tzgg-progress-bar {
+    position: absolute;
+    width: 0;
+    max-width: 100%;
+    height: 6px;
+    border-radius: 20px;
+    text-align: right;
+    background-color: #0e9aef;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+/* a链接样式*/
+a,a:hover,a:focus,a:active{
+	color:#333;
+}
+a:hover,a:focus,a:active{
+	cursor:pointer;
+	text-decoration: none;
+}
+/* 顶样式*/
+.label-primary {
+    color: #fff;
+    background-color: #0e9aef;
+}
+/* 公告详情大div样式*/
+.content2{
+    padding: 20px 0px 20px 20px;
+}
+.task-detail{
+	padding:0;
+}
+.task-detail p{
+	margin:0;
+}
+.task-title{
+	padding: 10px 0 5px;
+	font-size: 16px;
+}
+/* 12px字体*/
+.fontsize12{
+	font-size:12px;
+}
+.task-title2{
+	margin-bottom:4px;
+}
+.infos{
+	line-height: 24px;
+}
+
+
+/* 附件下载*/
+.adjunct{
+	width: 100%;
+}
+.adjunct .adjunct-item{
+	float: left;
+	width: 200px;
+	height: 50px;
+	overflow: hidden;
+	margin:5px;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.left{
+	float: left;
+	
+}
+.positionleft5{
+	position:relative;
+	left:5px;
+}
+.rating-infos{
+	margin-left:50px;
+}
+.green-color{
+	color:#0e9aef;
+}
+/* 下载详情div*/
+.tzgg-ul{
+    border: 1px solid #bbb;
+    height: 50px;
+    padding: 5px;
+}
+.tzgg-ul li{
+	list-style:none;
+	float:left;
+}
+.tzgg-ul-li2{
+	width:100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.tzgg-ul-li3{
+	width: 400px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+
+}
+.paddingleft10{
+	padding:0 10px;
+}
+/* 评论样式*/
+.rating{
+	margin-bottom: 16px;
+}
+.rating-datils{
+	margin:0; 
+}
+.avatar{
+	width:40px ;
+	height: 40px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+/* textarea样式*/
+.rating-textarea{
+	clear: none;
+}
+/* 查看样式*/
+.chakan{
+	padding-left: 20px;
+}
+.width-half{
+	width: 46%;
+	display: inline-block;
+	padding: 0;
+
+}
+
+
+
+
+.chakanrenshu{
+	margin-bottom: 10px;
+}
+.green-color{
+	color:#0e9aef;
+	padding: 0 10px;
+}
+.textalign-center{
+	text-align: center !important;
+}
+.layui-form2{
+	padding-top: 10px;
+}
+.redcolor{
+	color: red;
+}
+.fujian-span{
+	font-size: 12px;
+    padding-left: 10px;
+}
+.pandding-bottom{
+	padding-bottom:10px; 
+}
+.layui-textarea2{
+	width:100%;
+	min-height:80px;
+	resize:none;
+	overflow:auto;
+}
+.tk-table thead,.tk-table tfoot{
+	height:0;
+	display:none !important;
+}
+.pull-left{
+	margin:0;
+}
+.fixed-table-container tbody tr{
+	border-bottom:1px solid #e6e6e6;
+}
+.fixed-table-container tbody th{
+	border:none;
+}
+.fixed-table-container tbody td{
+	border:none;
+}
+#tab-1 .pagination-detail{display:none;}
+/* 公告详情样式*/
+.datils-wrapper {position: fixed;top:0;right: -82%;width: 82%;background: #f0f0f0;padding: 5px;z-index:10;overflow:auto;box-shadow: -5px 0 rgba(243, 243, 244,0.6);margin-left:0;padding-left:0}
+.padding-right{padding-right:30px;}
+.topstyle{background:#fff;padding:10px;margin:5px;margin-top:0;margin-left:0;}
+.middleleftstyle{box-sizing:border-box;background:#fff;padding:10px;padding-bottom:40px;width: 59.4%;display:inline-block;margin:5px;margin-right:0px;margin-left:0;}
+.middlerightstyle{box-sizing:border-box;background:#fff;padding:10px;width:39%;padding-bottom:40px;display:inline-block;vertical-align:top;margin:5px;}
+#detailsNotice .right {float: right;position: relative;top: 14px;}
+.floatright{float:right !important;}
+.closeDatilsWrapper{position:absolute;top:15px;right:30px;cursor:pointer}
+
+.padding-bottom10{padding-bottom:10px;}
+.xxnr{border-bottom:2px solid #0e9aef;padding-bottom: 7px;font-size: 15px;width: 60px;margin-bottom:20px}
+.ggnr{color:#999;font-size: 14px;}
+.zitistyle{color:#999;font-size: 14px}

@@ -1,0 +1,58 @@
+/* 拜访信息title*/
+.baifangxinxi {
+    font-weight: 700;
+    border-left: 4px solid #1ab394;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+/* 每一行样式 */
+.layui-form-item {
+    margin: 0;
+    clear: both;
+    position: relative;
+}
+/* 拜访信息label样式 */
+.baifang-label{
+    float: left;
+    display: block;
+    padding: 5px 15px;
+    width: 200px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 20px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.positiontop5 {
+    position: relative;
+    top: 5px;
+}
+/* 绿色 */
+.green-color {
+    color: #1ab394;
+}
+/* 红色 */
+.redcolor {
+    color: red;
+}
+/* textarea样式 */
+.rizhijilu-textarea {
+    width: 82%;
+    height: 150px;
+    resize: none;
+}
+/* 左右边距0 */
+  .marginleftright{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+/* 审批按钮后边的关闭按钮 */
+.close-btn{
+	float:right;font-size:large;color:#39aef5;font-weight:normal;padding-top:6px;cursor:pointer;
+}
+.close-btn:hover,.close-btn:active{
+	color:#333;
+}
+/* 照片点击右上角按钮样式 */
+.layui-layer-setwin .layui-layer-close2 {top: -8px !important;right: -32px !important;}

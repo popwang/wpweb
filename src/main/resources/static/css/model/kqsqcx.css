@@ -1,0 +1,19 @@
+/* a链接样式 */
+a,a:hover,a:focus,a:active{
+	color:#333;
+}
+/* 右浮动右边距 */
+.right{
+	float:right;
+	padding-right:10px;
+}
+/* 弹窗大div样式 */
+.content2{
+	width：500px;
+	padding: 20px;
+}
+/* 鼠标手型 */
+.shouxing{
+	cursor:pointer;
+}
+.brick{    color: #39aef5;}

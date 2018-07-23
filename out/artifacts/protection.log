@@ -1,0 +1,560 @@
+12:10:08.741 logback [main] INFO  c.environment.EnvironmentApplication - Starting EnvironmentApplication on tieta5 with PID 1304 (D:\idea\environment\out\artifacts\environment_jar\environment.jar started by Administrator in D:\idea\environment\out\artifacts\environment_jar)
+12:10:08.741 logback [main] DEBUG c.environment.EnvironmentApplication - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+12:10:08.741 logback [main] INFO  c.environment.EnvironmentApplication - No active profile set, falling back to default profiles: default
+12:10:08.803 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a32de6c: startup date [Mon Oct 16 12:10:08 CST 2017]; root of context hierarchy
+12:10:09.302 logback [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+12:10:09.302 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+12:10:09.365 logback [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+12:10:09.567 logback [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/D:/idea/environment/out/artifacts/environment_jar/environment.jar!/com/environment/mapper/NewsMapper.class]
+12:10:09.567 logback [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/D:/idea/environment/out/artifacts/environment_jar/environment.jar!/com/environment/mapper/UserMapper.class]
+12:10:09.567 logback [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'newsMapper' and 'com.environment.mapper.NewsMapper' mapperInterface
+12:10:09.567 logback [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'newsMapper'.
+12:10:09.567 logback [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.environment.mapper.UserMapper' mapperInterface
+12:10:09.567 logback [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+12:10:10.118 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d802659e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:10:10.352 logback [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+12:10:10.367 logback [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+12:10:10.367 logback [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+12:10:10.367 logback [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+12:10:10.367 logback [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy73
+12:10:10.367 logback [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+12:10:10.367 logback [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+12:10:10.367 logback [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+12:10:10.367 logback [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+12:10:10.383 logback [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+12:10:11.007 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+12:10:11.023 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:10:11.038 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+12:10:11.179 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:10:11.179 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2376 ms
+12:10:11.319 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:10:11.335 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:10:11.335 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:10:11.335 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:10:11.335 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:10:11.444 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+12:10:11.662 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:10:11.928 logback [main] INFO  o.s.jdbc.datasource.init.ScriptUtils - Executing SQL script from class path resource [init-sql/schema.sql]
+12:10:12.989 logback [main] INFO  o.s.jdbc.datasource.init.ScriptUtils - Executed SQL script from class path resource [init-sql/schema.sql] in 1060 ms.
+12:10:13.024 logback [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+12:10:13.028 logback [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.environment.domain.NewsInfo matches criteria [is assignable to Object]
+12:10:13.029 logback [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.environment.domain.PageInfo matches criteria [is assignable to Object]
+12:10:13.031 logback [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.environment.domain.UserInfo matches criteria [is assignable to Object]
+12:10:13.031 logback [main] DEBUG o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.environment.domain' for aliases
+12:10:13.216 logback [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'class path resource [mapper/news-mapper.xml]'
+12:10:13.222 logback [main] DEBUG o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'class path resource [mapper/user-mapper.xml]'
+12:10:13.607 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baidumap/index.htm]}" onto public org.springframework.web.servlet.ModelAndView com.environment.contrller.BaiduMap.index(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:10:13.610 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index.htm]}" onto public org.springframework.web.servlet.ModelAndView com.environment.contrller.Index.index(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:10:13.611 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main.htm]}" onto public org.springframework.web.servlet.ModelAndView com.environment.contrller.Index.main()
+12:10:13.611 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login.htm]}" onto public java.util.Map com.environment.contrller.Index.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:10:13.612 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/quit.htm]}" onto public org.springframework.web.servlet.ModelAndView com.environment.contrller.Index.quit()
+12:10:13.613 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+12:10:13.615 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+12:10:13.616 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+12:10:13.617 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+12:10:13.620 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:10:13.621 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:10:13.763 logback [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+12:10:13.768 logback [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+12:10:13.769 logback [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+12:10:13.770 logback [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+12:10:13.771 logback [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy73
+12:10:13.772 logback [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+12:10:13.773 logback [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+12:10:13.774 logback [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+12:10:13.774 logback [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+12:10:13.775 logback [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+12:10:13.945 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a32de6c: startup date [Mon Oct 16 12:10:08 CST 2017]; root of context hierarchy
+12:10:13.976 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+12:10:13.987 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:10:13.987 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:10:14.016 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:10:14.051 logback [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+12:10:14.231 logback [main] INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a32de6c: startup date [Mon Oct 16 12:10:08 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+12:10:14.232 logback [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+12:10:14.411 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:10:14.414 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:10:14.421 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:10:14.428 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+12:10:14.444 logback [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+12:10:14.451 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+12:10:14.454 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.456 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='baidu-map', position=0, controller=com.environment.contrller.BaiduMap}]] 
+12:10:14.457 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.458 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: index belongs to groups: [[ResourceGroup{groupName='index', position=0, controller=com.environment.contrller.Index}]] 
+12:10:14.459 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.459 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='index', position=0, controller=com.environment.contrller.Index}]] 
+12:10:14.460 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.461 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: main belongs to groups: [[ResourceGroup{groupName='index', position=0, controller=com.environment.contrller.Index}]] 
+12:10:14.461 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.461 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: quit belongs to groups: [[ResourceGroup{groupName='index', position=0, controller=com.environment.contrller.Index}]] 
+12:10:14.464 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/index Description: index Position: 0
+12:10:14.465 logback [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/baidu-map Description: baidu-map Position: 0
+12:10:14.474 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+12:10:14.475 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |index|
+12:10:14.475 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |index|
+12:10:14.477 logback [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |index|
+12:10:14.482 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.483 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.490 logback [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.491 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.503 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property view
+12:10:14.508 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+12:10:14.509 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'view' renamed to 'view'
+12:10:14.510 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property view to model
+12:10:14.511 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+12:10:14.512 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+12:10:14.512 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+12:10:14.512 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getView
+12:10:14.516 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property model
+12:10:14.517 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+12:10:14.517 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'model' renamed to 'model'
+12:10:14.517 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property model to model
+12:10:14.517 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+12:10:14.518 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+12:10:14.518 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+12:10:14.518 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModel
+12:10:14.518 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property status
+12:10:14.519 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+12:10:14.519 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'status' renamed to 'status'
+12:10:14.519 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property status to model
+12:10:14.520 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+12:10:14.520 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+12:10:14.520 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+12:10:14.520 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getStatus
+12:10:14.521 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property empty
+12:10:14.523 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+12:10:14.523 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'empty' renamed to 'empty'
+12:10:14.523 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property empty to model
+12:10:14.528 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+12:10:14.528 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+12:10:14.529 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+12:10:14.529 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isEmpty
+12:10:14.529 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property viewName
+12:10:14.530 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+12:10:14.531 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'viewName' renamed to 'viewName'
+12:10:14.531 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property viewName to model
+12:10:14.531 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+12:10:14.531 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+12:10:14.531 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+12:10:14.532 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getViewName
+12:10:14.532 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property reference
+12:10:14.532 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+12:10:14.532 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'reference' renamed to 'reference'
+12:10:14.532 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property reference to model
+12:10:14.532 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+12:10:14.533 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+12:10:14.533 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+12:10:14.533 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member isReference
+12:10:14.533 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property modelMap
+12:10:14.533 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+12:10:14.534 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'modelMap' renamed to 'modelMap'
+12:10:14.534 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property modelMap to model
+12:10:14.534 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+12:10:14.534 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+12:10:14.534 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+12:10:14.534 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getModelMap
+12:10:14.537 logback [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 7 properties. Properties found view, model, status, empty, viewName, reference, modelMap
+12:10:14.538 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+12:10:14.538 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+12:10:14.539 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.539 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.543 logback [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.543 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.544 logback [main] DEBUG s.d.schema.ModelDependencyProvider - Adding type Lorg/springframework/web/servlet/View; for parameter view
+12:10:14.544 logback [main] DEBUG s.d.schema.ModelDependencyProvider - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+12:10:14.545 logback [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.View(true)
+12:10:14.545 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+12:10:14.545 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Reading property contentType
+12:10:14.545 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+12:10:14.546 logback [main] DEBUG s.d.s.p.ObjectMapperBeanPropertyNamingStrategy - Name 'contentType' renamed to 'contentType'
+12:10:14.546 logback [main] DEBUG s.d.s.p.OptimizedModelPropertiesProvider - Adding property contentType to model
+12:10:14.546 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+12:10:14.546 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+12:10:14.546 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+12:10:14.546 logback [main] DEBUG s.d.s.p.bean.BeanModelProperty - Evaluating unwrapped getter for member getContentType
+12:10:14.547 logback [main] DEBUG s.d.schema.ModelDependencyProvider - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+12:10:14.547 logback [main] DEBUG s.d.schema.ModelDependencyProvider - Recursively resolving dependencies for value type Ljava/lang/Object;
+12:10:14.547 logback [main] DEBUG s.d.schema.ModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+12:10:14.549 logback [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.View(true)
+12:10:14.549 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+12:10:14.549 logback [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+12:10:14.549 logback [main] DEBUG s.d.schema.DefaultModelProvider - Skipping model of type Lorg/springframework/ui/ModelMap; as its either a container type, map, enum or base type, or its already been handled
+12:10:14.550 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Adding a new model with key ModelMap
+12:10:14.550 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Adding a new model with key View
+12:10:14.551 logback [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /baidumap/index.htm.com.environment.contrller.BaiduMap.index.DefaultGenericTypeNamingStrategy
+12:10:14.551 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /baidumap/index.htm.com.environment.contrller.BaiduMap.index.DefaultGenericTypeNamingStrategy
+12:10:14.560 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.561 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.563 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.589 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.589 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.592 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.594 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.594 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.594 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.595 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.595 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.596 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.596 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.596 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.597 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.597 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.598 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.598 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.598 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.599 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.599 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.600 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.600 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.600 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.601 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.601 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.601 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.603 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.603 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.603 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.604 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.604 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.605 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.605 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.605 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.605 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.606 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.606 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.607 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.607 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.607 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.608 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.608 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.608 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.609 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.609 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.609 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was baidu-map
+12:10:14.610 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.616 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+12:10:14.616 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |index|
+12:10:14.616 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |index|
+12:10:14.616 logback [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |index|
+12:10:14.617 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.617 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.617 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+12:10:14.617 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Adding a new model with key ModelAndView
+12:10:14.618 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.618 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.618 logback [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.View(true)
+12:10:14.618 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+12:10:14.619 logback [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+12:10:14.619 logback [main] DEBUG s.d.schema.DefaultModelProvider - Skipping model of type Lorg/springframework/ui/ModelMap; as its either a container type, map, enum or base type, or its already been handled
+12:10:14.620 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Adding a new model with key ModelMap
+12:10:14.620 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Adding a new model with key View
+12:10:14.620 logback [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /index.htm.com.environment.contrller.Index.index.DefaultGenericTypeNamingStrategy
+12:10:14.620 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /index.htm.com.environment.contrller.Index.index.DefaultGenericTypeNamingStrategy
+12:10:14.621 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.621 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.621 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.622 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.622 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.623 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.623 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+12:10:14.624 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.624 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.625 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.625 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.626 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.626 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.626 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingHEAD_1
+12:10:14.627 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.627 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.628 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.628 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.628 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.629 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.629 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingPOST_1
+12:10:14.630 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.630 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.630 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.631 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.631 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.632 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.632 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingPUT_1
+12:10:14.632 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.633 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.633 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.633 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.633 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.634 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.634 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingPATCH_1
+12:10:14.635 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.636 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.636 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.637 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.637 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.637 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.637 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingDELETE_1
+12:10:14.638 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.638 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.638 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.639 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.639 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.640 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.640 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingOPTIONS_1
+12:10:14.640 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.641 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.642 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method index
+12:10:14.643 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.643 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method index was index
+12:10:14.644 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method index
+12:10:14.644 logback [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: indexUsingTRACE_1
+12:10:14.647 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Ljava/lang/Object;
+12:10:14.648 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |login|
+12:10:14.648 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |login|
+12:10:14.648 logback [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |login|
+12:10:14.648 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+12:10:14.649 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Object(true)
+12:10:14.649 logback [main] DEBUG s.d.schema.DefaultModelProvider - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+12:10:14.649 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Did not find any parameter models for java.lang.Object
+12:10:14.649 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Object(true)
+12:10:14.649 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+12:10:14.650 logback [main] DEBUG s.d.schema.ModelDependencyProvider - Marking base type Ljava/lang/Object; as seen
+12:10:14.650 logback [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /login.htm.com.environment.contrller.Index.login.DefaultGenericTypeNamingStrategy
+12:10:14.650 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /login.htm.com.environment.contrller.Index.login.DefaultGenericTypeNamingStrategy
+12:10:14.656 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.657 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.657 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.658 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.659 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.659 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.660 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.660 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.661 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.661 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.661 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.662 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.663 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.663 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.663 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.664 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.664 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.664 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.665 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.666 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.666 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.666 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.667 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.667 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.668 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.669 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.669 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.670 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.670 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.671 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.672 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.672 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.673 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.673 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.673 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.674 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.675 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.675 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.676 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.676 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.676 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.676 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.677 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:object
+12:10:14.678 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.678 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method login
+12:10:14.678 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:object
+12:10:14.679 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was index
+12:10:14.679 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method login
+12:10:14.679 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+12:10:14.679 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |main|
+12:10:14.680 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |main|
+12:10:14.680 logback [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |main|
+12:10:14.680 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.680 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.681 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+12:10:14.681 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.681 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.681 logback [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.View(true)
+12:10:14.681 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+12:10:14.682 logback [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+12:10:14.682 logback [main] DEBUG s.d.schema.DefaultModelProvider - Skipping model of type Lorg/springframework/ui/ModelMap; as its either a container type, map, enum or base type, or its already been handled
+12:10:14.682 logback [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /main.htm.com.environment.contrller.Index.main.DefaultGenericTypeNamingStrategy
+12:10:14.682 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /main.htm.com.environment.contrller.Index.main.DefaultGenericTypeNamingStrategy
+12:10:14.683 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.683 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.683 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.684 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.684 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.684 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.685 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.686 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.687 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.687 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.687 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.688 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.688 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.688 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.688 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.689 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.689 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.689 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.689 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.690 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.690 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.690 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.690 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.691 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.691 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.691 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.691 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.692 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.692 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.692 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.692 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.693 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.693 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.693 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.694 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.694 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.694 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.695 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.695 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.695 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.695 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.696 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.696 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.696 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.696 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method main
+12:10:14.697 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.697 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method main was index
+12:10:14.697 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method main
+12:10:14.698 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+12:10:14.698 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Reading parameters models for handlerMethod |quit|
+12:10:14.698 logback [main] DEBUG s.d.s.w.r.o.OperationModelsProvider - Finished reading parameters models for handlerMethod |quit|
+12:10:14.698 logback [main] DEBUG s.d.s.r.o.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |quit|
+12:10:14.698 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.698 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.699 logback [main] DEBUG s.d.s.web.scanners.ApiModelReader - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+12:10:14.699 logback [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+12:10:14.699 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+12:10:14.700 logback [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: org.springframework.web.servlet.View(true)
+12:10:14.700 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+12:10:14.700 logback [main] DEBUG s.d.schema.DefaultModelProvider - Inferred 1 properties. Properties found contentType
+12:10:14.700 logback [main] DEBUG s.d.schema.DefaultModelProvider - Skipping model of type Lorg/springframework/ui/ModelMap; as its either a container type, map, enum or base type, or its already been handled
+12:10:14.702 logback [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /quit.htm.com.environment.contrller.Index.quit.DefaultGenericTypeNamingStrategy
+12:10:14.702 logback [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /quit.htm.com.environment.contrller.Index.quit.DefaultGenericTypeNamingStrategy
+12:10:14.706 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.707 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.707 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.707 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.708 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.708 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.708 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.708 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.709 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.709 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.709 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.710 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.710 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.710 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.711 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.711 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.711 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.712 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.712 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.713 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.713 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.713 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.713 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.714 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.714 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.714 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.715 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.715 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.715 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.715 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.716 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.716 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.716 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.716 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.717 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.717 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.717 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.717 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.718 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.719 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.719 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.719 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.721 logback [main] DEBUG s.d.s.w.r.o.OperationResponseClassReader - Setting spring response class to:ModelAndView
+12:10:14.721 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.722 logback [main] DEBUG s.d.s.r.o.OperationAuthReader - Authorization count 0 for method quit
+12:10:14.723 logback [main] DEBUG s.d.s.r.o.SwaggerOperationResponseClassReader - Setting response class to:ModelAndView
+12:10:14.723 logback [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method quit was index
+12:10:14.723 logback [main] DEBUG s.d.s.r.o.VendorExtensionsReader - Extension count 1 for method quit
+12:10:14.738 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:10:14.758 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12:10:14.791 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:10:14.809 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+12:10:14.815 logback [main] INFO  c.environment.EnvironmentApplication - Started EnvironmentApplication in 6.869 seconds (JVM running for 7.754)
+12:56:52.638 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:56:52.638 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:56:52.684 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+12:56:52.731 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:56:52.731 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+12:56:52.731 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+12:56:52.731 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+12:56:52.731 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/index.ftl]"
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - Couldn't find template in cache for "index.htm.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.htm_zh_CN.ftl"): Not found
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.htm_zh.ftl"): Not found
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.htm.ftl"): Not found
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("index.ftl"): Found
+12:56:52.825 logback [http-nio-8080-exec-1] DEBUG freemarker.cache - "index.ftl"("zh_CN", UTF-8, parsed): using cached since class path resource [templates/index.ftl] hasn't changed.
+12:56:55.758 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - Couldn't find template in cache for "main.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:56:55.758 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main_zh_CN.ftl"): Not found
+12:56:55.758 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main_zh.ftl"): Not found
+12:56:55.758 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main.ftl"): Found
+12:56:55.758 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - Loading template for "main.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/main.ftl]"
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - Couldn't find template in cache for "main.htm.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main.htm_zh_CN.ftl"): Not found
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main.htm_zh.ftl"): Not found
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main.htm.ftl"): Not found
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main_zh_CN.ftl"): Not found
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main_zh.ftl"): Not found
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("main.ftl"): Found
+12:56:55.773 logback [http-nio-8080-exec-4] DEBUG freemarker.cache - "main.ftl"("zh_CN", UTF-8, parsed): using cached since class path resource [templates/main.ftl] hasn't changed.
+12:57:00.765 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Couldn't find template in cache for "baidumap/index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:57:00.765 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index_zh_CN.ftl"): Not found
+12:57:00.765 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index_zh.ftl"): Not found
+12:57:00.765 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.ftl"): Found
+12:57:00.765 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Loading template for "baidumap/index.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/baidumap/index.ftl]"
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Couldn't find template in cache for "baidumap/index.htm.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.htm_zh_CN.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.htm_zh.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.htm.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Couldn't find template in cache for "baidumap/index.html.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.html_zh_CN.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.html_zh.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.html.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index_zh_CN.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index_zh.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("baidumap/index.ftl"): Found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - "baidumap/index.ftl"("zh_CN", UTF-8, parsed): using cached since class path resource [templates/baidumap/index.ftl] hasn't changed.
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Couldn't find template in cache for "public_css.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("public_css_zh_CN.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("public_css_zh.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("public_css.ftl"): Found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Loading template for "public_css.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/public_css.ftl]"
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Couldn't find template in cache for "public_js.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("public_js_zh_CN.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("public_js_zh.ftl"): Not found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("public_js.ftl"): Found
+12:57:00.781 logback [http-nio-8080-exec-6] DEBUG freemarker.cache - Loading template for "public_js.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/public_js.ftl]"
+13:38:28.584 logback [Thread-3] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a32de6c: startup date [Mon Oct 16 12:10:08 CST 2017]; root of context hierarchy
+13:38:28.584 logback [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+13:38:28.584 logback [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+13:38:28.599 logback [Thread-3] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

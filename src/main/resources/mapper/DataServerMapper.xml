@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.environment.mypuls.mapper.DataServerMapper" >
+
+  <!--根据设备名称和数据时间查询设备数据-->
+  <select id="getEnvironmentData" resultType="com.environment.vo.EquipmentDataVo" parameterType="map">
+    select t.`v_equipment_name` deviceid,
+    p002 pm25, p003 pm10, p004 winds,
+    w.`v_wind_direct_name` windd,
+    p006 temp, p007 humi, p008 noise, p009 pm100, p010 pre,
+    p014 lati, p015 logi,
+    date_format(dtm_create,'%Y-%m-%d %H:%i:%S') dtmCreate
+    from t_equipment_data2 t
+    left join `t_wind_direct_dic` w 
+    	on w.`i_wind_direct_id`=t.`p005`
+  	where  t.v_equipment_name IN
+    <foreach collection="elist" index="index" item="item" open="(" separator="," close=")">
+        #{item}  
+    </foreach>  
+  	order by t.`dtm_create` desc
+  </select>
+  
+</mapper>

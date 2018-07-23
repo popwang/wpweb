@@ -1,0 +1,291 @@
+/* 外边大的div */
+.filtrate-wrapper {
+	padding:20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 6px;
+}
+/* 标题 */
+.filtrate-wrapper .title-name {
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.filtrate-wrapper .seach {
+    padding: 10px 0 0;
+}
+/* 清除浮动 */
+.clearfix {
+    zoom: 1;
+}
+/*查询 按钮 */
+.lf-seach .lf-seach-btn {
+    margin: 0 10px 0 0;
+    background-image: url(../img/icon_search.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 33px;
+}
+.lf-seach .lf-seach-daochu {
+    margin-left: 10px !important;
+    background-image: url(../img/icon_export.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 33px;
+}
+.lf-seach .lf-seach-daoru {
+    margin-left: 10px !important;
+    background-image: url(../img/icon_download.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 33px;
+}
+.lf-btn {
+    display: inline-block;
+    float:right;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 18px;
+    background-color: #0e9aef;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+/* 查询按钮鼠标经过时候的效果 */
+.lf-btn:hover{
+	background-color:#39aef5;
+	border-color:#39aef5;
+}
+/* 筛选查询前边查询框样式 */
+.lf-btntwo {
+    display: block;
+    width:22%;
+    float:right;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 18px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    filter: alpha(opacity=90);
+}
+
+.lf-seach .lf-seach-screening {
+    background-image: url(../img/icon_screen.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 33px;
+}
+.lf-marginleft10px {
+    margin-left: 5px !important;
+}
+.margin0 {
+    margin: 0px !important;
+}
+/* input输入框样式 */
+.lf-input {
+	display:inline-block;
+	float:right;
+    height: 34px;
+    padding-left: 10px;
+    line-height: 34px;
+    line-height: 36px\9;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    border-radius: 2px;
+    outline: 0;
+    -webkit-transition: border-color .3s cubic-bezier(.65, .05, .35, .5);
+    transition: border-color .3s cubic-bezier(.65, .05, .35, .5);
+    -webkit-box-sizing: border-box!important;
+    -moz-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+}
+.lf-seach-inp {
+    width: 30%;
+    border-radius: 2px 0 0 2px;
+}
+/* select样式 */
+.filter-select {
+    padding: 10px 0 5px;
+    width: 100%;
+    float: left;
+    background: #f3f3f4;
+    border:1px solid #bbb;
+}
+/*默认隐藏*/
+.lf-hide1 {
+    display: none;
+}
+.filter-wrap {
+    width: 100%;
+}
+/* 左浮动 */
+.lf-left {
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.lf-form-group {
+    width:25%;
+    float: left;
+    margin-left: 0 !important;
+    margin-bottom:5px !important;
+}
+.lf-select-wrap {
+    width: 12%;
+    text-align: center;
+}
+/* 右浮动 */
+.lf-right {
+    float: right;
+}
+.lf-form-control{
+    padding: 0;
+    padding-left:5px;
+}
+.lf-label{
+	margin-right: 15px;
+	font-weight: normal;
+}
+.lf-form-group .glyphicon {
+right:34px !important;
+}
+.fixed-table-toolbar .bars, .fixed-table-toolbar .columns, .fixed-table-toolbar .search {
+    position: relative;
+     margin-top: 5px !important;
+     margin-bottom: 0 !important; 
+    line-height: 34px;
+}
+.wrapper {
+    background: #fff;
+    margin: 20px;
+    border-radius: 6px;
+    padding: 20px;
+}
+/* 按钮样式*/
+.blue-btn{
+	color:#fff;
+	background-color:#0e9aef;
+	border-color:#0e9aef;
+}
+.blue-btn:hover,.blue-btn:active,.blue-btn:focus{
+	color:#fff;
+	background-color:#39aef5;
+	border-color:#39aef5;
+}
+/* bootstrap分页颜色替换*/
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #0e9aef;
+	border-color: #0e9aef;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border:0;
+}
+.bootstrap-table .table.table-no-bordered>thead>tr>th{
+	border:1px solid #e4eaec;
+}
+.bootstrap-table .table.table-no-bordered>tbody>tr>td{
+	border:1px solid transparent;
+}
+/* 模态框标题 */
+.modal-header-title{
+	color: #999;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* layer标题 */
+.layui-layer-title{
+    font-size: 15px !important;
+}
+/* 公共全局样式 */
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+label.error{
+	font-size: 12px;
+    font-weight: normal;
+    color: orangered;
+    margin: 0;
+    padding-left: 5px;
+}
+.handle-a{
+	margin-right:10px;
+}
+.bootstrap-table .table.table-no-bordered>thead>tr>th {
+    background: #f9fdff;
+}
+.task-btn{
+	background-color: #fff;
+	display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+}
+.task-btn-l{
+	border-radius:4px 0 0 4px;
+}
+.task-btn-r{
+	border-radius:0 4px 4px 0;
+}
+.task-btn-active{
+	background-color: #0e9aef;
+    border: 1px solid #0e9aef;
+    color: #fff;
+}
+/* border-bottom样式 */
+.border-bottom-style{
+	border-bottom:1px solid #39aef5 ;
+}
+.nav>li>a {
+    color: #333 !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #39aef5 !important;
+    border: 1px solid #39aef5 !important;
+    border-bottom-color: transparent !important;
+}
+.nav-tabs {
+    border-bottom: 1px solid #39aef5;
+}
+.tab-active{
+	border-bottom: 1px solid #39aef5 !important;
+}
+td{word-break: break-all !important;}
+.overflow{
+	overflow:hidden;
+text-overflow:ellipsis;
+white-space:nowrap;
+}
+.simditor-toolbar{
+	width:100% !important;
+}
